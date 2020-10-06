@@ -4,40 +4,58 @@
         <meta charset="utf-8 /">
         <title>Ma page</title>
         <style>
-            table { border: 1px solid black; border-collapse: collapse; width: 500px; height: 150px; }
-            td { border: 1px solid black; width: 33%;}
+            table, td, th, tr { border: 1px solid black; border-collapse: collapse; }
+            .text-centering {text-align: center;}
         </style>
     </head>
     <body>
         <table>
+            <caption>Mon compte BNP</caption>
             <thead>
                 <tr>
-                    <td colspan="4" style="text-align: center;">Mon compte BNP</td>
+                    <th>Date</th>
+                    <th>Libellé</th>
+                    <th>Crédit</th>
+                    <th>Débit</th>
                 </tr>
             </thead>
            <tfoot>
-               <tr style="text-align: center;">
-                    <td td colspan="2">Solde</td><td td colspan="2">575.40</td>
+               <tr>
+                    <td td colspan="2"; class="text-centering">Solde</td>
+                    <td td colspan="2"; class="text-centering">575.40</td>
                 </tr>
             </tfoot>
             <tbody>
-                <tr style="text-align: center;">
-                    <td>Date</td><td>Libellé</td><td>Crédit</td><td>Débit</td>
-                </tr>
+               
                 <tr >
-                    <td>01/05/2016</td><td>Paye</td><td>1500</td><td>0</td>
+                    <td>01/05/2016</td>
+                    <td>Paye</td>
+                    <td>1500</td>
+                    <td>0</td>
                 </tr>
                 <tr>
-                    <td>01/05/2016</td><td>Courses de la semaine</td><td>0</td><td>132.30</td>
+                    <td>01/05/2016</td>
+                    <td>Courses de la semaine</td>
+                    <td>0</td>
+                    <td>132.30</td>
                 </tr>
                 <tr>
-                    <td>04/05/2016</td><td>Mc Do</td><td>0</td><td>32.40</td>
+                    <td>04/05/2016</td>
+                    <td>Mc Do</td>
+                    <td>0</td>
+                    <td>32.40</td>
                 </tr>
                 <tr>
-                    <td>05/05/2016</td><td>Loyer</td><td>0</td><td>700</td>
+                    <td>05/05/2016</td>
+                    <td>Loyer</td>
+                    <td>0</td>
+                    <td>700</td>
                 </tr>
                 <tr>
-                    <td>05/05/2016</td><td>Internet</td><td>0</td><td>39.90</td>
+                    <td>05/05/2016</td>
+                    <td>Internet</td>
+                    <td>0</td>
+                    <td>39.90</td>
                 </tr>
             </tbody>
         </table>

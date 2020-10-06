@@ -1,0 +1,9 @@
+#identity, .identity {
+    background-color: #2574a9;
+}
+#shipping, .shipping {
+    background-color: #9a12b3;
+}
+#payment, .payment {
+    background-color: #db0a5b;
+}

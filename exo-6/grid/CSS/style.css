@@ -1,0 +1,10 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 15wh);
+}
+
+#green{
+    grid-row: 1/7;
+    background-color: #2ecc71;
+}
